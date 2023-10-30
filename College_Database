@@ -1,0 +1,261 @@
+//Create table having details of 50 college students with the name, registration number, department, semester, percentage and passing out date
+Create table college
+(
+Studentname  varchar(20),
+Regnum int,
+Department  varchar(3),
+Semester   int,
+Percentage  int,
+Dateofpassin DATE
+);
+insert into college values('Deepa',201,'ECE',8,80,'2016-03-16'); 
+insert into college values('Girish',202,'EEE',6,62,'2017-03-16');
+insert into college values('Kishan',203,'CSE',7,61,'2016-03-16');
+insert into college values('Gopal',204,'CE',8,93,'2016-03-16');
+insert into college values('Gowri',205,'EEE',1,57,'2019-03-16');
+insert into college values('Drisya',206,'IT',2,35,'2019-03-16');
+insert into college values('Divya',207,'AE',3,99,'2018-03-16');
+insert into college values('Adarsh',208,'EEE',4,39,'2018-03-16');
+insert into college values('Tejus',209,'ECE',8,75,'2016-03-16');
+insert into college values('Ashwin',210,'CE',7,74,'2016-03-16');
+insert into college values('Shivani',211,'CE',6,81,'2017-03-16');
+insert into college values('Satheesh',212,'ME',2,86,'2019-03-16');
+insert into college values('Sudheesh',213,'ME',3,61,'2018-03-16');
+insert into college values('Pradeep',214,'ECE',4,62,'2018-03-16');
+insert into college values('Anoop',215,'ME',1,69,'2019-03-16');
+insert into college values('Rakesh',216,'EEE',8,54,'2016-03-16');
+insert into college values('Ravi',217,'CSE',8,59,'2016-03-16');
+insert into college values('Krish',218,'AE',7,0,'2016-03-16');
+insert into college values('Vihaan',219,'AE',6,90,'2017-03-16');
+insert into college values('Smitha',220,'CSE',8,82,'2016-03-16');
+insert into college values('Kiran',221,'CSE',7,88,'2016-03-16');
+insert into college values('Damu',222,'EEE',8,60,'2016-03-16');
+insert into college values('Murali',223,'ECE',5,60,'2017-03-16');
+insert into college values('Satheesh',224,'ME',4,67,'2018-03-16');
+insert into college values('Sathi',225,'IT',1,63,'2019-03-16');
+insert into college values('Amritha',226,'CE',8,41,'2016-03-16');
+insert into college values('Naveena',227,'ME',7,40,'2016-03-16');
+insert into college values('Nivedya',228,'EEE',8,78,'2016-03-16');
+insert into college values('Radha',229,'CSE',8,60,'2016-03-16');
+insert into college values('Sidhu',230,'CE',7,80,'2016-03-16');
+insert into college values('Sharath',231,'ECE',8,63,'2016-03-16');
+insert into college values('Sreerag',232,'ME',6,90,'2017-03-16');
+insert into college values('Sreehari',233,'IT',6,59,'2017-03-16');
+insert into college values('Appu',234,'AE',8,79,'2016-03-16');
+insert into college values('Priyesh',235,'EEE',8,82,'2016-03-16');
+insert into college values('Pranitha',236,'AE',7,80,'2016-03-16');
+insert into college values('Pranav',237,'IT',8,45,'2016-03-16');
+insert into college values('Chithra',238,'EEE',8,0,'2016-03-16');
+insert into college values('Sujatha',239,'EEE',8,91,'2016-03-16');
+insert into college values('Vishnu',240,'CSE',7,64,'2016-03-16');
+insert into college values('Varsha',241,'ECE',2,75,'2019-03-16');
+insert into college values('Haritha',242,'ECE',3,67,'2018-03-16');
+insert into college values('Sabitha',243,'ECE',6,68,'2017-03-16');
+insert into college values('Sreehari',244,'ME',8,78,'2016-03-16');
+insert into college values('Nithin',245,'IT',8,80,'2016-03-16');
+insert into college values('Ratheesh',246,'CE',6,44,'2017-03-16');
+insert into college values('Nihal',247,'CSE',8,51,'2016-03-16');
+insert into college values('Ishan',248,'ME',7,67,'2016-03-16');
+insert into college values('Akshara',249,'ME',5,66,'2017-03-16');
+insert into college values('Kavitha',250,'EEE',8,98,'2016-03—16’);
+
+//Create a table student table having gender and age details for the students in the above table and insert age and gender details to it
+	Create table student_data
+	(
+	Studentname varchar(30),
+	Gender vachar(2),
+	Age int);
+insert into student_data values('Deepa', 'F',21);
+insert into student_data values('Girish','M',22);
+insert into student_data values('Kishan','M',19);
+insert into student_data values('Gopal','M',22);
+insert into student_data values('Gowri', 'F',21);
+insert into student_data values('Drisya', 'F',21);
+insert into student_data values('Divya', 'F',19);
+insert into student_data values('Adarsh','M',20);
+insert into student_data values('Tejus','M',22);
+insert into student_data values('Ashwin','M',19);
+insert into student_data values('Shivani', 'F',18);
+insert into student_data values('Satheesh','M',22);
+insert into student_data values('Sudheesh','M',19);
+insert into student_data values('Pradeep','M',20);
+insert into student_data values('Anoop','M',18);
+insert into student_data values('Rakesh','M',21);
+insert into student_data values('Ravi','M',19);
+insert into student_data values('Krish','M',21);
+insert into student_data values('Vihaan','M',22);
+insert into student_data values('Smitha', 'F',23);
+insert into student_data values('Kiran','M',21);
+insert into student_data values('Damu','M',22);
+insert into student_data values('Murali','M',19);
+insert into student_data values('Satheesh','M',22);
+insert into student_data values('Sathi', 'F',19);
+insert into student_data values('Amritha', 'F',20);
+insert into student_data values('Naveena', 'F',20);
+insert into student_data values('Nivedya', 'F',22);
+insert into student_data values('Radha', 'F',21);
+insert into student_data values('Sidhu','M',20);
+insert into student_data values('Sharath','M',22);
+insert into student_data values('Sreerag','M',23);
+insert into student_data values('Sreehari','M',19);
+insert into student_data values('Appu','M',18);
+insert into student_data values('Priyesh','M',19);
+insert into student_data values('Pranitha', 'F',19);
+insert into student_data values('Pranav','M',22);
+insert into student_data values('Chithra', 'F',20);
+insert into student_data values('Sujatha', 'F',19);
+insert into student_data values('Vishnu','M',20);
+insert into student_data values('Varsha', 'F',21);
+insert into student_data values('Haritha', 'F',20);
+insert into student_data values('Sabitha', 'F',23);
+insert into student_data values('Sreehari','M',22);
+insert into student_data values('Nithin','M',19);
+insert into student_data values('Ratheesh','M',22);
+insert into student_data values('Nihal','M',20);
+insert into student_data values('Ishan','M',22);
+insert into student_data values('Akshara', 'F',21);
+insert into student_data values('Kavitha', 'F',22);
+
+//Update the department of Kishan and Nihal to ECE
+update college
+ set department='ECE' where studentname = ‘Kishan’;
+update college
+set department='ECE' where studentname = ‘Nihal;
+
+//delete the row having regnum 250 from college
+delete from college
+ where regnum=250;
+ Set autocommit=0;
+ Rollback;
+ 
+//find the studentname from college who are from department CSE
+select * from college
+where department='CSE';
+
+// Display the name of students and their department from college
+select studentname,department from college;
+
+// Add  column headofdepartment to college
+alter table college
+ add(headofdepartment varchar(20));
+ 
+// Rename the column headofdepartment to HOD
+alter table college
+ rename column headofdepartment to HOD;
+ 
+// change the datatype of HOD from college
+alter table college
+ modify HOD char;
+ 
+//change the size of the column  studentname   from college
+alter table college
+ modify studentname varchar(20);
+ 
+// Remove the  coulum HOD from college
+alter table college
+ drop column HOD;
+
+//Remove the table student_data
+Drop table student_data;
+
+//Delete all the data's from college 
+truncate table college;
+
+//change the table name student_data in to student_details
+Rename table student_data to student_details;
+
+//find the list of  students whose percentage is  greater than 70
+select * from college
+ where percentage>70;
+
+//find the list of department whose percentage is greater or equal to 75
+select * from college
+ where department='ECE' AND percentage>=75;
+
+// find the list of student name whose department is ME Or percentage  less thsn 70
+select * from college
+where department='ME' OR percentage<70;
+
+// find the list of students whose percentage is between 50 and 70
+select * from college
+ where percentage between 50 and 70;
+
+//Display the students from college in the departments ECE,CSE,AE studying in 8 semester.
+ select * from college
+ where department IN('ECE','CSE','AE') AND semester=8;
+
+//display the student names from college whose name start with D and ends with A.
+select * from college
+ where studentname LIKE 'D%A';
+
+//Display the student names having third letter R in their names.
+ select * from college
+ where studentname LIKE '__r%';
+//Display the detais of students from college who doesn’t have HOD data
+select * from college
+where HOD IS NULL;
+
+// Display details of  students from college who has HOD data.
+select * from college
+ where HOD IS NOT NULL;
+
+//Arrage the students from student_data in the increasing order of Age
+select * from student_data
+ order by age asc;
+
+//find the total number of students  from each department who has scored distinction(greater than or equalto 75)
+select count(department),department from college
+ where percentage>=75
+ group by department;
+
+//find the toper from ECE department.
+select max(percentage) from college
+ where department='ECE';
+
+//find the student having lowest percentage from college
+select min(percentage) from college;
+
+//find the total number of records in college
+select count(*) from college;
+
+//find average percentage of students  from CSE Department
+select avg(percentage) from college
+ where department='CSE';
+// find the college topper
+select studentname,percentage from college
+ where percentage=(select max(percentage)  from college);
+
+//Display the average percentage of all the students from college as AVERAGE
+select avg(percentage) as AVERAGE from college;
+
+//Create 2 tables Subject and Electronics having the column RollNo as common between them.
+create table Subject
+    -> (
+    -> subject_Name varchar(30),
+    -> student_Name varchar(30),
+    -> Marks int,
+    -> RollNo int);
+ insert into Subject values('Physics','Deepak',83,10);
+insert into Subject values('Chemistry','Ajeesh',75,11);
+insert into Subject values('Chemistry','Ashwin',60,12);
+
+create table Electronics
+    -> (
+    -> Practical varchar(30),
+    -> RollNo int);
+insert into Electronics values('MATLAB', 12);
+insert into Electronics values('Digital', 13);
+insert into Electronics values('Analog', 14);
+
+// Display the subject_name, student_name, practical and rollNo for the student having common roll No between Subject and Electronics tables (Inner Join)
+select subject.subject_name,subject.student_name,subject.rollno,electronics.practical from subject inner join electronics on subject.rollno=electronics.rollno;
+// Left Outer Join the tables Subject and Electronics
+select subject.subject_name,subject.student_name,subject.rollno,electronics.practical from subject left outer join electronics on subject.rollno=electronics.rollno;
+// Right outer join the tables Subject and Electronics
+select subject.subject_name,subject.student_name,subject.rollno,electronics.practical from subject right outer join electronics on subject.rollno=electronics.rollno;
+//Full Join the tables Subject and Electronics
+select subject.subject_name,subject.student_name,subject.rollno,electronics.practical from subject left outer join electronics on subject.rollno=electronics.rollno
+ union
+ select subject.subject_name,subject.student_name,subject.rollno,electronics.practical from subject right outer join electronics on subject.rollno=electronics.rollno;
+//Cross join the tables Subject and Electronics
+select s.subject_name,E.rollno from subject s cross join electronics E;
